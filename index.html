@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <!-- Font Awesome - Icons -->
+    <script src="https://kit.fontawesome.com/707b627196.js" crossorigin="anonymous"></script>
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <!-- Nav Icon -->
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <!-- Brand -->
+            <div><span class="nav-brand">Brand/Company Name</span></div>
+            <!-- Cart Icon -->
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Game Store</h1>
+            <button class="banner-btn">Shop Now</button>
+
+        </div>
+    </header>
+
+    <!-- Products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Games List</h2>
+        </div>
+        <div class="products-center">
+            <!-- Product list will be entered using Async JS -->
+        </div>
+    </section>
+
+    <!-- CART -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- Cart items will be entered using JS when added to cart -->
+            </div>
+            <div class="cart-footer">
+                <h3>Your Total: $<span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Templates -->
+    <template id="template-product">
+        <!-- Single Product -->
+        <article class="product">
+            <div class="img-container">
+                <img class="product-img"
+                    src="https://lh3.googleusercontent.com/3QAgSY5a64aDHgXNRYJJCB5vpg3E3b74741VfSUlDxY2dcENKM1lmbWsu5jazYdo_kY=w330-h185-rw"
+                    alt="Game Image">
+                <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+            </div>
+            <h3>Roblox</h3>
+            <h4>$5</h4>
+        </article>
+    </template>
+
+    <!-- SCRIPTS -->
+    <!-- Contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- App JS -->
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>

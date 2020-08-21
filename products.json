@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "CS:GO",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1596065970" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Pubg",
+        "price": 19.99,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg?t=1595994469" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Grand Theft Auto V",
+        "price": 29.99,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1596227904" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Monster Hunter: World",
+        "price": 39.99,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg?t=1596077168" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Dead by Daylight",
+        "price": 8.79,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg?t=1596327428" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Red Dead Redemption 2",
+        "price": 63.99,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg?t=1596313041" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "The Witcher 3: Wild Hunt",
+        "price": 55.99,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg?t=1595981318"} } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "No Man's Sky",
+        "price": 66.49,
+        "image": { "fields": { "file": { "url": "https://cdn.cloudflare.steamstatic.com/steam/apps/275850/header.jpg?t=1596207668" } } }
+      }
+    }
+  ]
+}
