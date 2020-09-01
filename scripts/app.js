@@ -21,9 +21,8 @@ class Products {
             // Using data from local JSON file
             const result = await fetch('products.json');
             const data = await result.json();
-            const products = data.items;
+            let products = data.items;
             
-            let products = contentful.items;
             products = products.map((item) => {
                 const { title, price } = item.fields;
                 const { id } = item.sys;
